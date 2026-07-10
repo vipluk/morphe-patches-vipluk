@@ -19,6 +19,7 @@ import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.patches.shared.misc.settings.preference.TextPreference
 import app.morphe.patches.shared.misc.settings.preference.noTitleUnsortedPreferenceCategory
 import app.morphe.patches.youtube.layout.seekbar.seekbarColorPatch
+import app.morphe.patches.youtube.layout.logocolor.logoColorPatch
 import app.morphe.patches.youtube.misc.extension.sharedExtensionPatch
 import app.morphe.patches.youtube.misc.playservice.is_21_06_or_greater
 import app.morphe.patches.youtube.misc.playservice.is_21_08_or_greater
@@ -226,6 +227,7 @@ val themePatch = baseThemePatch(
             sharedExtensionPatch,
             settingsPatch,
             seekbarColorPatch,
+            logoColorPatch,
             versionCheckPatch,
             baseThemeResourcePatch(
                 lightColorReplacement = { lightThemeBackgroundColorOption.value!! },
