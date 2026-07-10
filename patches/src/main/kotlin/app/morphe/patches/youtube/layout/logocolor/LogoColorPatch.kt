@@ -10,6 +10,7 @@ import app.morphe.patches.youtube.shared.Constants.COMPATIBILITY_YOUTUBE
 
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/youtube/patches/theme/LogoColorPatch;"
 
+@Suppress("unused")
 val logoColorPatch = bytecodePatch(
     description = "Set a custom color of the YouTube and Shorts logo inside app",
 ) {
