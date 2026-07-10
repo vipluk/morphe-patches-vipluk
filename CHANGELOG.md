@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/vipluk/morphe-patches-vipluk/compare/v1.0.0...v1.0.1) (2026-07-10)
+
+### 🐛 Bug Fixes
+
+* **youtube/layout/logocolor:** add logoColorPatch to ThemePatch dependencies to expose it in patches-list.json ([636eaa4](https://github.com/vipluk/morphe-patches-vipluk/commit/636eaa4ed56c391ed19e01d239b732530dc5350d))
+
 ## 1.0.0 (2026-07-10)
 
 ### 🐛 Bug Fixes
