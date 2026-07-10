@@ -1043,6 +1043,11 @@ If later turned off, it is recommended to clear the app data to prevent UI bugs.
     <string name="morphe_seekbar_custom_color_accent_summary">Set the secondary color of the video progress bar</string>
     <string name="morphe_seekbar_custom_color_invalid">Invalid seekbar color value</string>
 
+    <!-- layout.logocolor.logoColorPatch -->
+    <string name="morphe_logo_custom_color_title">Enable custom logo color</string>
+    <string name="morphe_logo_custom_color_value_title">Logo color</string>
+    <string name="morphe_logo_custom_color_value_summary">Set the color of the YouTube and Shorts logo inside app</string>
+
     <!-- layout.branding.customBrandingPatch -->
     <string name="morphe_custom_branding_name_entry_2" translatable="false">YouTube Morphe</string>
     <string name="morphe_custom_branding_name_entry_3" translatable="false">YT Morphe</string>

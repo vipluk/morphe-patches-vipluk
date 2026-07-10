@@ -467,6 +467,8 @@ public class Settings extends SharedYouTubeSettings {
     public static final BooleanSetting SEEKBAR_CUSTOM_COLOR = new BooleanSetting("morphe_seekbar_custom_color", FALSE, true);
     public static final StringSetting SEEKBAR_CUSTOM_COLOR_PRIMARY = new StringSetting("morphe_seekbar_custom_color_primary", "#FF0033", true, parent(SEEKBAR_CUSTOM_COLOR));
     public static final StringSetting SEEKBAR_CUSTOM_COLOR_ACCENT = new StringSetting("morphe_seekbar_custom_color_accent", "#FF2791", true, parent(SEEKBAR_CUSTOM_COLOR));
+    public static final BooleanSetting LOGO_CUSTOM_COLOR = new BooleanSetting("morphe_logo_custom_color", FALSE, true);
+    public static final StringSetting LOGO_CUSTOM_COLOR_VALUE = new StringSetting("morphe_logo_custom_color_value", "#FF0000", true, parent(LOGO_CUSTOM_COLOR));
 
     // Miscellaneous
     public static final BooleanSetting ANNOUNCEMENTS = new BooleanSetting("morphe_announcements", TRUE);
